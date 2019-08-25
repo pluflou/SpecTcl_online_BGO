@@ -3991,9 +3991,14 @@ spectrum BGO_ModID00_ChID12 1 BGOarray.raw.chanid012.adc {{0.000000 40000.000000
 spectrum BGO_ModID00_ChID13 1 BGOarray.raw.chanid013.adc {{0.000000 40000.000000 8000}} long
 spectrum BGO_ModID00_ChID14 1 BGOarray.raw.chanid014.adc {{0.000000 40000.000000 8000}} long
 spectrum BGO_ModID00_ChID15 1 BGOarray.raw.chanid015.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID16 1 BGOarray.raw.chanid016.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID17 1 BGOarray.raw.chanid017.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID18 1 BGOarray.raw.chanid018.adc {{0.000000 40000.000000 8000}} long
+spectrum BGO_ModID01_ChID00 1 BGOarray.raw.chanid016.adc {{0.000000 40000.000000 8000}} long
+spectrum BGO_ModID01_ChID01 1 BGOarray.raw.chanid017.adc {{0.000000 40000.000000 8000}} long
+spectrum BGO_ModID01_ChID02 1 BGOarray.raw.chanid018.adc {{0.000000 40000.000000 8000}} long
+spectrum BGO_ModID01_ChID03 1 BGOarray.raw.chanid019.adc {{0.000000 40000.000000 8000}} long
+spectrum BGO_ModID01_ChID04 1 BGOarray.raw.chanid020.adc {{0.000000 40000.000000 8000}} long
+spectrum BGO_ModID01_ChID05 1 BGOarray.raw.chanid021.adc {{0.000000 40000.000000 8000}} long
+spectrum BGO_ModID01_ChID06 1 BGOarray.raw.chanid022.adc {{0.000000 40000.000000 8000}} long
+
 
 
 # Gate Applications: 

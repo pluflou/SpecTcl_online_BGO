@@ -1,5 +1,5 @@
 "BGO_ModID00_ChID00" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid000.adc")
@@ -1140,7 +1140,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 375
 (-1) -1
 "BGO_ModID00_ChID01" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid001.adc")
@@ -2380,7 +2380,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 559
 (-1) -1
 "BGO_ModID00_ChID02" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid002.adc")
@@ -3580,7 +3580,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 540
 (-1) -1
 "BGO_ModID00_ChID03" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid003.adc")
@@ -4771,7 +4771,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 613
 (-1) -1
 "BGO_ModID00_ChID04" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid004.adc")
@@ -6012,7 +6012,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 603
 (-1) -1
 "BGO_ModID00_ChID05" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid005.adc")
@@ -7196,7 +7196,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 619
 (-1) -1
 "BGO_ModID00_ChID06" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid006.adc")
@@ -8453,7 +8453,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 508
 (-1) -1
 "BGO_ModID00_ChID07" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid007.adc")
@@ -9697,7 +9697,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 529
 (-1) -1
 "BGO_ModID00_ChID08" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid008.adc")
@@ -10973,7 +10973,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 608
 (-1) -1
 "BGO_ModID00_ChID09" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid009.adc")
@@ -12113,7 +12113,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 489
 (-1) -1
 "BGO_ModID00_ChID10" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid010.adc")
@@ -13365,7 +13365,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 600
 (-1) -1
 "BGO_ModID00_ChID11" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid011.adc")
@@ -14653,7 +14653,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 596
 (-1) -1
 "BGO_ModID00_ChID12" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid012.adc")
@@ -15902,7 +15902,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 571
 (-1) -1
 "BGO_ModID00_ChID13" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid013.adc")
@@ -17192,7 +17192,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 632
 (-1) -1
 "BGO_ModID00_ChID14" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid014.adc")
@@ -18497,7 +18497,7 @@ Sun Aug 25 19:12:32 2019
 (6553) 601
 (-1) -1
 "BGO_ModID00_ChID15" (8000)
-Sun Aug 25 19:12:32 2019
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid015.adc")
@@ -19738,8 +19738,8 @@ Sun Aug 25 19:12:32 2019
 (6552) 11
 (6553) 603
 (-1) -1
-"BGO_ModID00_ChID16" (8000)
-Sun Aug 25 19:12:32 2019
+"BGO_ModID01_ChID00" (8000)
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid016.adc")
@@ -21093,8 +21093,8 @@ Sun Aug 25 19:12:32 2019
 (6317) 1
 (6553) 587
 (-1) -1
-"BGO_ModID00_ChID17" (8000)
-Sun Aug 25 19:12:32 2019
+"BGO_ModID01_ChID01" (8000)
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid017.adc")
@@ -22423,8 +22423,8 @@ Sun Aug 25 19:12:32 2019
 (6234) 1
 (6553) 574
 (-1) -1
-"BGO_ModID00_ChID18" (8000)
-Sun Aug 25 19:12:32 2019
+"BGO_ModID01_ChID02" (8000)
+Sun Aug 25 19:33:35 2019
  3
 1 long 
 ("BGOarray.raw.chanid018.adc")
@@ -23844,4 +23844,36 @@ Sun Aug 25 19:12:32 2019
 (6548) 1
 (6552) 1
 (6553) 649
+(-1) -1
+"BGO_ModID01_ChID03" (8000)
+Sun Aug 25 19:33:35 2019
+ 3
+1 long 
+("BGOarray.raw.chanid019.adc")
+(0 40000) 
+--------------------------------------------
+(-1) -1
+"BGO_ModID01_ChID04" (8000)
+Sun Aug 25 19:33:35 2019
+ 3
+1 long 
+("BGOarray.raw.chanid020.adc")
+(0 40000) 
+--------------------------------------------
+(-1) -1
+"BGO_ModID01_ChID05" (8000)
+Sun Aug 25 19:33:35 2019
+ 3
+1 long 
+("BGOarray.raw.chanid021.adc")
+(0 40000) 
+--------------------------------------------
+(-1) -1
+"BGO_ModID01_ChID06" (8000)
+Sun Aug 25 19:33:35 2019
+ 3
+1 long 
+("BGOarray.raw.chanid022.adc")
+(0 40000) 
+--------------------------------------------
 (-1) -1
