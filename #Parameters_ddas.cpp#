@@ -1,0 +1,74 @@
+// File:  Parameters_ddas.cpp
+///////////////////////////////////////////////////////////////////////////////
+#ifdef HAVE_STD_NAMESPACE
+using namespace std;
+#endif
+
+#include <stdio.h>
+#include <config.h>
+#include <Event.h>
+#include <string>
+#include <cmath>
+#include "Parameters_ddas.h"
+
+/////////////////////////////////// HABANERO //////////////////////////////////////
+BGOarray::BGOarray(STD(string) name){
+  energy.Initialize(name+".energy", 12, 32,0);
+  ecal.Initialize(name+".ecal", 12, 32, 0);
+  time.Initialize(name+".time", 20, 32, 0);
+  timecfd.Initialize(name+".timecfd", 20, 81, 0);
+  timelow.Initialize(name+".timelow", 20, 81, 0);
+  timehigh.Initialize(name+".timehigh", 20, 81, 0);
+  raw.Initialize(this, name+".raw");
+}
+///////////////////////////////////////////////////////////////////////////////
+void BGOarray::Reset(){
+  energy.Reset();
+  ecal.Reset();
+  time.Reset();
+  timecfd.Reset();
+  timelow.Reset();
+  timehigh.Reset();
+  raw.Reset();
+}
+///////////////////////////////////////////////////////////////////////////////
+void BGOarrayRaw::Initialize(BGOarray* treetop, STD(string) name){
+  top = treetop;
+  for(int i=0; i<TOTMOD*CHANPERMOD; i++){
+    Char_t detname[11];
+    sprintf(detname,".chanid%03d",i);
+    //cout << "detname " << detname << endl;
+    chanid[i].Initialize(top, name+detname);
+  }
+}
+///////////////////////////////////////////////////////////////////////////////
+void BGOarrayRaw::Reset(){
+  //cout << "reseting HabaNeroraw" << endl;
+  for(int i=0; i<chanidhit.size(); i++){
+    chanid[chanidhit[i]].Reset();
+  }
+  chanidhit.clear();
+}
+///////////////////////////////////////////////////////////////////////////////
+void BGOarrayChanID::Initialize(BGOarray* treetop, STD(string) name){
+  adc.Initialize(name+".adc",80);//16
+  timehigh.Initialize(name+".timehigh", 32);
+  timelow.Initialize(name+".timelow", 32);
+  timecfd.Initialize(name+".timecfd", 32);
+  time = 0;
+  overflow.Initialize(name+".overflow",3);
+  esums.Initialize(name+".esums",16,5,0);
+  qsums.Initialize(name+".qsums",16,8,0);
+}
+///////////////////////////////////////////////////////////////////////////////
+void BGOarrayChanID::Reset(){
+  adc.Reset();
+  timehigh.Reset();
+  timelow.Reset();
+  timecfd.Reset();
+  time = 0;
+  esums.Reset();
+  qsums.Reset();
+  overflow.Reset();
+}
+///////////////////////////////////////////////////////////////////////////////

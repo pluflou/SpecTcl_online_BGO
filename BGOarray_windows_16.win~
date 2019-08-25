@@ -1,0 +1,83 @@
+Geometry 4,4
+# /user/jensa/SpecTcl_SA/SA_windows_16.win Written by @(#)dispwind.cc	2.2 1/28/94  at Thu Aug  1 20:40:31 2019
+
+Window  0,0,"JINA_ModID00_ChID00"
+   SCALE Manual 8192
+   MAPPED 1
+   Expanded 106,365
+Endwindow
+Window  1,0,"JINA_ModID00_ChID01"
+   SCALE Manual 16384
+   MAPPED 1
+   Expanded 106,365
+Endwindow
+Window  2,0,"JINA_ModID00_ChID02"
+   SCALE Manual 8192
+   MAPPED 1
+   Expanded 3,419
+Endwindow
+Window  3,0,"JINA_ModID00_ChID03"
+   SCALE Manual 16384
+   MAPPED 1
+   Expanded 0,489
+Endwindow
+Window  0,1,"JINA_ModID00_ChID04"
+   SCALE Manual 16384
+   MAPPED 1
+   Expanded 27,446
+Endwindow
+Window  1,1,"JINA_ModID00_ChID05"
+   SCALE Manual 16384
+   MAPPED 1
+   Expanded 0,447
+Endwindow
+Window  2,1,"JINA_ModID00_ChID06"
+   SCALE Manual 16384
+   MAPPED 1
+   Expanded 0,573
+Endwindow
+Window  3,1,"JINA_ModID00_ChID07"
+   SCALE Manual 16384
+   MAPPED 1
+   Expanded 0,531
+Endwindow
+Window  0,2,"JINA_ModID00_ChID08"
+   SCALE Manual 16384
+   MAPPED 1
+   Expanded 0,573
+Endwindow
+Window  1,2,"JINA_ModID00_ChID09"
+   SCALE Manual 16384
+   MAPPED 1
+   Expanded 0,489
+Endwindow
+Window  2,2,"JINA_ModID00_ChID10"
+   SCALE Manual 16384
+   MAPPED 1
+   Expanded 0,503
+Endwindow
+Window  3,2,"JINA_ModID00_ChID11"
+   SCALE Manual 16384
+   MAPPED 1
+   Expanded 13,545
+Endwindow
+Window  0,3,"JINA_ModID00_ChID12"
+   SCALE Manual 8192
+   MAPPED 1
+   Expanded 0,559
+Endwindow
+Window  1,3,"JINA_ModID00_ChID13"
+   SCALE Manual 16384
+   MAPPED 1
+   Expanded 0,769
+Endwindow
+Window  2,3,"JINA_ModID00_ChID14"
+   SCALE Manual 4096
+   MAPPED 1
+   Expanded 3342,3601
+Endwindow
+Window  3,3,"JINA_ModID00_ChID15"
+   SCALE Manual 1024
+   MAPPED 1
+   Expanded 13253,14646
+Endwindow
