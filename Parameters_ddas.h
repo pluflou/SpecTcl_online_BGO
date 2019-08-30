@@ -10,7 +10,7 @@ extern class DdasDiagnostics ddasdiagnostics;
 // Bit registers 
 
 // define the total number of modules in the system
-#define TOTMOD 2
+#define TOTMOD 1
 
 //define the number of channels in a module
 #define CHANPERMOD 16

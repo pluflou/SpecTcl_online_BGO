@@ -1,0 +1,74 @@
+Geometry 5,3
+# /user/e18514/SpecTcl_online_BGO/BGOarray_windows_14.win Written by @(#)dispwind.cc	2.2 1/28/94  at Fri Aug 30 15:36:45 2019
+
+Window  0,0,"BGO_ModID00_ChID00"
+   SCALE Manual 2048
+   COUNTSAXIS  LOG
+   MAPPED 0
+Endwindow
+Window  1,0,"BGO_ModID00_ChID01"
+   SCALE Manual 4096
+   COUNTSAXIS  LOG
+   MAPPED 0
+Endwindow
+Window  2,0,"BGO_ModID00_ChID02"
+   SCALE Manual 4096
+   COUNTSAXIS  LOG
+   MAPPED 0
+Endwindow
+Window  3,0,"BGO_ModID00_ChID03"
+   SCALE Manual 4096
+   COUNTSAXIS  LOG
+   MAPPED 0
+Endwindow
+Window  4,0,"BGO_ModID00_ChID04"
+   SCALE Manual 8192
+   COUNTSAXIS  LOG
+   MAPPED 0
+Endwindow
+Window  0,1,"BGO_ModID00_ChID05"
+   SCALE Manual 8192
+   COUNTSAXIS  LOG
+   MAPPED 0
+Endwindow
+Window  1,1,"BGO_ModID00_ChID06"
+   SCALE Manual 8192
+   COUNTSAXIS  LOG
+   MAPPED 0
+Endwindow
+Window  2,1,"BGO_ModID00_ChID07"
+   SCALE Manual 16384
+   COUNTSAXIS  LOG
+   MAPPED 0
+Endwindow
+Window  3,1,"BGO_ModID00_ChID08"
+   SCALE Manual 256
+   COUNTSAXIS  LOG
+   MAPPED 0
+Endwindow
+Window  4,1,"BGO_ModID00_ChID09"
+   SCALE Manual 2048
+   COUNTSAXIS  LOG
+   MAPPED 0
+Endwindow
+Window  0,2,"BGO_ModID00_ChID10"
+   SCALE Manual 32768
+   COUNTSAXIS  LOG
+   MAPPED 0
+   Expanded 0,1893
+Endwindow
+Window  1,2,"BGO_ModID00_ChID11"
+   SCALE Manual 8192
+   COUNTSAXIS  LOG
+   MAPPED 0
+Endwindow
+Window  2,2,"BGO_ModID00_ChID12"
+   SCALE Manual 16384
+   COUNTSAXIS  LOG
+   MAPPED 0
+Endwindow
+Window  3,2,"BGO_ModID00_ChID13"
+   SCALE Manual 8192
+   COUNTSAXIS  LOG
+   MAPPED 0
+Endwindow

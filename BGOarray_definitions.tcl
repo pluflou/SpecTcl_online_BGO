@@ -3,172 +3,6 @@
 #      Author: Ron Fox (fox@nscl.msu.edu)
 
 #Tree params:
-
-catch {treeparameter -create BGOarray.ecal.00 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.00 0 4096
-treeparameter -setbins   BGOarray.ecal.00 4096
-treeparameter -setunit   BGOarray.ecal.00 unknown
-
-catch {treeparameter -create BGOarray.ecal.01 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.01 0 4096
-treeparameter -setbins   BGOarray.ecal.01 4096
-treeparameter -setunit   BGOarray.ecal.01 unknown
-
-catch {treeparameter -create BGOarray.ecal.02 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.02 0 4096
-treeparameter -setbins   BGOarray.ecal.02 4096
-treeparameter -setunit   BGOarray.ecal.02 unknown
-
-catch {treeparameter -create BGOarray.ecal.03 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.03 0 4096
-treeparameter -setbins   BGOarray.ecal.03 4096
-treeparameter -setunit   BGOarray.ecal.03 unknown
-
-catch {treeparameter -create BGOarray.ecal.04 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.04 0 4096
-treeparameter -setbins   BGOarray.ecal.04 4096
-treeparameter -setunit   BGOarray.ecal.04 unknown
-
-catch {treeparameter -create BGOarray.ecal.05 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.05 0 4096
-treeparameter -setbins   BGOarray.ecal.05 4096
-treeparameter -setunit   BGOarray.ecal.05 unknown
-
-catch {treeparameter -create BGOarray.ecal.06 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.06 0 4096
-treeparameter -setbins   BGOarray.ecal.06 4096
-treeparameter -setunit   BGOarray.ecal.06 unknown
-
-catch {treeparameter -create BGOarray.ecal.07 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.07 0 4096
-treeparameter -setbins   BGOarray.ecal.07 4096
-treeparameter -setunit   BGOarray.ecal.07 unknown
-
-catch {treeparameter -create BGOarray.ecal.08 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.08 0 4096
-treeparameter -setbins   BGOarray.ecal.08 4096
-treeparameter -setunit   BGOarray.ecal.08 unknown
-
-catch {treeparameter -create BGOarray.ecal.09 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.09 0 4096
-treeparameter -setbins   BGOarray.ecal.09 4096
-treeparameter -setunit   BGOarray.ecal.09 unknown
-
-catch {treeparameter -create BGOarray.ecal.10 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.10 0 4096
-treeparameter -setbins   BGOarray.ecal.10 4096
-treeparameter -setunit   BGOarray.ecal.10 unknown
-
-catch {treeparameter -create BGOarray.ecal.11 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.11 0 4096
-treeparameter -setbins   BGOarray.ecal.11 4096
-treeparameter -setunit   BGOarray.ecal.11 unknown
-
-catch {treeparameter -create BGOarray.ecal.12 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.12 0 4096
-treeparameter -setbins   BGOarray.ecal.12 4096
-treeparameter -setunit   BGOarray.ecal.12 unknown
-
-catch {treeparameter -create BGOarray.ecal.13 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.13 0 4096
-treeparameter -setbins   BGOarray.ecal.13 4096
-treeparameter -setunit   BGOarray.ecal.13 unknown
-
-catch {treeparameter -create BGOarray.ecal.14 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.14 0 4096
-treeparameter -setbins   BGOarray.ecal.14 4096
-treeparameter -setunit   BGOarray.ecal.14 unknown
-
-catch {treeparameter -create BGOarray.ecal.15 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.15 0 4096
-treeparameter -setbins   BGOarray.ecal.15 4096
-treeparameter -setunit   BGOarray.ecal.15 unknown
-
-catch {treeparameter -create BGOarray.ecal.16 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.16 0 4096
-treeparameter -setbins   BGOarray.ecal.16 4096
-treeparameter -setunit   BGOarray.ecal.16 unknown
-
-catch {treeparameter -create BGOarray.ecal.17 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.17 0 4096
-treeparameter -setbins   BGOarray.ecal.17 4096
-treeparameter -setunit   BGOarray.ecal.17 unknown
-
-catch {treeparameter -create BGOarray.ecal.18 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.18 0 4096
-treeparameter -setbins   BGOarray.ecal.18 4096
-treeparameter -setunit   BGOarray.ecal.18 unknown
-
-catch {treeparameter -create BGOarray.ecal.19 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.19 0 4096
-treeparameter -setbins   BGOarray.ecal.19 4096
-treeparameter -setunit   BGOarray.ecal.19 unknown
-
-catch {treeparameter -create BGOarray.ecal.20 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.20 0 4096
-treeparameter -setbins   BGOarray.ecal.20 4096
-treeparameter -setunit   BGOarray.ecal.20 unknown
-
-catch {treeparameter -create BGOarray.ecal.21 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.21 0 4096
-treeparameter -setbins   BGOarray.ecal.21 4096
-treeparameter -setunit   BGOarray.ecal.21 unknown
-
-catch {treeparameter -create BGOarray.ecal.22 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.22 0 4096
-treeparameter -setbins   BGOarray.ecal.22 4096
-treeparameter -setunit   BGOarray.ecal.22 unknown
-
-catch {treeparameter -create BGOarray.ecal.23 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.23 0 4096
-treeparameter -setbins   BGOarray.ecal.23 4096
-treeparameter -setunit   BGOarray.ecal.23 unknown
-
-catch {treeparameter -create BGOarray.ecal.24 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.24 0 4096
-treeparameter -setbins   BGOarray.ecal.24 4096
-treeparameter -setunit   BGOarray.ecal.24 unknown
-
-catch {treeparameter -create BGOarray.ecal.25 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.25 0 4096
-treeparameter -setbins   BGOarray.ecal.25 4096
-treeparameter -setunit   BGOarray.ecal.25 unknown
-
-catch {treeparameter -create BGOarray.ecal.26 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.26 0 4096
-treeparameter -setbins   BGOarray.ecal.26 4096
-treeparameter -setunit   BGOarray.ecal.26 unknown
-
-catch {treeparameter -create BGOarray.ecal.27 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.27 0 4096
-treeparameter -setbins   BGOarray.ecal.27 4096
-treeparameter -setunit   BGOarray.ecal.27 unknown
-
-catch {treeparameter -create BGOarray.ecal.28 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.28 0 4096
-treeparameter -setbins   BGOarray.ecal.28 4096
-treeparameter -setunit   BGOarray.ecal.28 unknown
-
-catch {treeparameter -create BGOarray.ecal.29 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.29 0 4096
-treeparameter -setbins   BGOarray.ecal.29 4096
-treeparameter -setunit   BGOarray.ecal.29 unknown
-
-catch {treeparameter -create BGOarray.ecal.30 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.30 0 4096
-treeparameter -setbins   BGOarray.ecal.30 4096
-treeparameter -setunit   BGOarray.ecal.30 unknown
-
-catch {treeparameter -create BGOarray.ecal.31 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.31 0 4096
-treeparameter -setbins   BGOarray.ecal.31 4096
-treeparameter -setunit   BGOarray.ecal.31 unknown
-
-catch {treeparameter -create BGOarray.ecal.32 0 4096 4096 unknown}
-treeparameter -setlimits BGOarray.ecal.32 0 4096
-treeparameter -setbins   BGOarray.ecal.32 4096
-treeparameter -setunit   BGOarray.ecal.32 unknown
-
 catch {treeparameter -create BGOarray.energy.00 0 4096 4096 unknown}
 treeparameter -setlimits BGOarray.energy.00 0 4096
 treeparameter -setbins   BGOarray.energy.00 4096
@@ -3975,31 +3809,20 @@ treeparameter -setunit   BGOarray.timelow.32 unknown
 
 # Spectrum Definitions
 
-spectrum BGO_ModID00_ChID00 1 BGOarray.raw.chanid000.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID01 1 BGOarray.raw.chanid001.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID02 1 BGOarray.raw.chanid002.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID03 1 BGOarray.raw.chanid003.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID04 1 BGOarray.raw.chanid004.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID05 1 BGOarray.raw.chanid005.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID06 1 BGOarray.raw.chanid006.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID07 1 BGOarray.raw.chanid007.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID08 1 BGOarray.raw.chanid008.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID09 1 BGOarray.raw.chanid009.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID10 1 BGOarray.raw.chanid010.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID11 1 BGOarray.raw.chanid011.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID12 1 BGOarray.raw.chanid012.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID13 1 BGOarray.raw.chanid013.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID14 1 BGOarray.raw.chanid014.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID00_ChID15 1 BGOarray.raw.chanid015.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID01_ChID00 1 BGOarray.raw.chanid016.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID01_ChID01 1 BGOarray.raw.chanid017.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID01_ChID02 1 BGOarray.raw.chanid018.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID01_ChID03 1 BGOarray.raw.chanid019.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID01_ChID04 1 BGOarray.raw.chanid020.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID01_ChID05 1 BGOarray.raw.chanid021.adc {{0.000000 40000.000000 8000}} long
-spectrum BGO_ModID01_ChID06 1 BGOarray.raw.chanid022.adc {{0.000000 40000.000000 8000}} long
-
-
+spectrum BGO_ModID00_ChID00 1 BGOarray.raw.chanid000.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID01 1 BGOarray.raw.chanid001.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID02 1 BGOarray.raw.chanid002.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID03 1 BGOarray.raw.chanid003.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID04 1 BGOarray.raw.chanid004.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID05 1 BGOarray.raw.chanid005.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID06 1 BGOarray.raw.chanid006.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID07 1 BGOarray.raw.chanid007.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID08 1 BGOarray.raw.chanid008.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID09 1 BGOarray.raw.chanid009.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID10 1 BGOarray.raw.chanid010.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID11 1 BGOarray.raw.chanid011.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID12 1 BGOarray.raw.chanid012.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID13 1 BGOarray.raw.chanid013.adc {{0.000000 33000.000000 11000}} long
 
 # Gate Applications: 
 

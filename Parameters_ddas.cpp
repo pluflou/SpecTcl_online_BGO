@@ -35,7 +35,7 @@ void BGOarray::Reset(){
 void BGOarrayRaw::Initialize(BGOarray* treetop, STD(string) name){
   top = treetop;
   for(int i=0; i<TOTMOD*CHANPERMOD; i++){
-    Char_t detname[11];
+    Char_t detname[16];
     sprintf(detname,".chanid%03d",i);
     //cout << "detname " << detname << endl;
     chanid[i].Initialize(top, name+detname);
@@ -51,7 +51,7 @@ void BGOarrayRaw::Reset(){
 }
 ///////////////////////////////////////////////////////////////////////////////
 void BGOarrayChanID::Initialize(BGOarray* treetop, STD(string) name){
-  adc.Initialize(name+".adc",32);//16
+  adc.Initialize(name+".adc",16);//32
   timehigh.Initialize(name+".timehigh", 32);
   timelow.Initialize(name+".timelow", 32);
   timecfd.Initialize(name+".timecfd", 32);

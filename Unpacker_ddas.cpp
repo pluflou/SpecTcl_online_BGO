@@ -213,7 +213,7 @@ void BGOUnpacker::ddastospectcl(vector<ddaschannel *> &channellist, CEvent &rEve
 	starttime_high = (*channellist_it)->timehigh;
     }
 
-    if ((*channellist_it)->id <32){    
+    if ((*channellist_it)->id <16){    
       
       //Unpack the data according to the channel id number
       BGO.raw.chanidhit.push_back((*channellist_it)->id);
@@ -234,7 +234,7 @@ void BGOUnpacker::ddastospectcl(vector<ddaschannel *> &channellist, CEvent &rEve
       endtime_high = (*channellist_it)->timehigh;
     }
     
-    if ((*channellist_it)->id >= 32){
+    if ((*channellist_it)->id >= 16){
       //cout << "id=" << (*channellist_it)->id <<  "energy = " <<  ((*channellist_it)->energy) << endl;
       endtime_low = (*channellist_it)->timelow;
       endtime_high = (*channellist_it)->timehigh;

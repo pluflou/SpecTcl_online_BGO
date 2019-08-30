@@ -72,14 +72,14 @@ if {[info globals SpecTclRCHasRun] eq ""}  {
     puts " Done"
 
 
-    splash::progress $splash {Loading SpecTcl/Root interface package} 1
+#    splash::progress $splash {Loading SpecTcl/Root interface package} 1
 
     
     
     splash::progress $splash {SpecTcl ready for use} 1
 
-    load $SpecTclHome/lib/libRootInterface.so
-    package require rootinterface
+#    load $SpecTclHome/lib/libRootInterface.so
+#    package require rootinterface
     
     splash::config $splash -delay 2000
 
